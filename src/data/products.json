@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "name": "Aura Sculptural Silver Palm Cuff",
+    "category": "unisex",
+    "price": 145.00,
+    "rating": 4.9,
+    "reviewsCount": 58,
+    "image": "https://images.unsplash.com/photo-1611591475155-426475489c36?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1611591475155-426475489c36?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "An avant-garde hand piece designed to contour the natural arch of the palm. Hand-forged in mirror-polished 925 sterling silver, creating fluid light reflections with every hand movement.",
+    "material": "925 Sterling Silver with anti-tarnish rhodium barrier",
+    "details": ["Weight: 38g", "Circumference: Adjustable 16-19cm", "Handmade in small artisan batches", "Hypoallergenic & nickel-free"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Solstice 18K Gold Vermeil Signet Ring",
+    "category": "unisex",
+    "price": 120.00,
+    "rating": 4.8,
+    "reviewsCount": 42,
+    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A refined substantial signet ring featuring a softly brushed concave oval face. Heavyweight feel with comfort-fit interior taper, built to be an heirloom piece worn daily.",
+    "material": "18K Gold Vermeil over recycled 925 Sterling Silver (3.5 microns)",
+    "details": ["Band width: 6mm tapering to 4mm", "Signet plate: 14mm x 11mm", "Laser-engraved hallmark inside", "Satin-brushed top face"],
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Elysian Diamond Pavé Hand Chain",
+    "category": "women",
+    "price": 195.00,
+    "rating": 4.9,
+    "reviewsCount": 73,
+    "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1611591475155-426475489c36?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Connecting a delicate wrist chain to an open ring via a shimmering spine of handset laboratory-grown pavé crystals. Drapes across the back of the hand with whisper-light elegance.",
+    "material": "14K Recycled Solid Yellow Gold & Brilliant Lab-Grown Crystals",
+    "details": ["Wrist length: 16cm + 3cm extender", "Center link: 8.5cm", "Secure lobster clasp closure", "Featherweight 4.2g"],
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Vanguard Brutalist Titanium Cuff",
+    "category": "men",
+    "price": 165.00,
+    "rating": 4.7,
+    "reviewsCount": 39,
+    "image": "https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1611591475155-426475489c36?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Precision-milled from aerospace-grade Grade 5 titanium, featuring a raw bevelled chamfer and bead-blasted charcoal finish. Ultra-durable, lightweight, and engineered for a lifetime of wear.",
+    "material": "Grade 5 Aerospace Titanium with Matte DLC Coating",
+    "details": ["Width: 10mm", "Thickness: 3.5mm", "Semi-flexible for custom wrist fit", "Scratch-resistant PVD treatment"],
+    "featured": true
+  },
+  {
+    "id": 5,
+    "name": "Serpentine Spiral Knuckle Ring",
+    "category": "women",
+    "price": 85.00,
+    "rating": 4.8,
+    "reviewsCount": 61,
+    "image": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A fluid double-coil ring that gracefully wraps across the finger knuckle. Cast in solid recycled bronze and finished with a rich 18k champagne gold plating.",
+    "material": "18K Gold Plated Recycled Bronze",
+    "details": ["Adjustable fit (US sizes 5 to 8)", "Tapered snakehead silhouette", "Smooth inner shank for comfort", "Hypoallergenic"],
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Obsidian Ridge Oxidized Silver Ring",
+    "category": "men",
+    "price": 110.00,
+    "rating": 4.9,
+    "reviewsCount": 47,
+    "image": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1611591475155-426475489c36?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Inspired by basalt volcanic rock formations. Heavily textured 925 sterling silver with controlled liver-of-sulphur oxidation, contrasting dark recesses against polished high points.",
+    "material": "Oxidized 925 Sterling Silver",
+    "details": ["Band width: 8mm", "Comfort-curved interior", "Individual hand-chiseled texture", "Natural patina develops over time"],
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Continuum Interlocking Dual Bangles",
+    "category": "unisex",
+    "price": 175.00,
+    "rating": 4.9,
+    "reviewsCount": 84,
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1611591475155-426475489c36?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Two seamlessly intertwined solid circular bangles—one finished in bright white rhodium, the other in warm 18k yellow gold. Moves freely on the wrist with a rhythmic tactile chiming.",
+    "material": "Dual Tone: 925 Sterling Silver & 18K Yellow Gold Dip",
+    "details": ["Internal diameter: 65mm (Standard fit)", "Bangle gauge: 3.5mm round solid wire", "Weight: 44g combined", "Laser hallmark stamped"],
+    "featured": true
+  },
+  {
+    "id": 8,
+    "name": "Lumina Solitary Pearl Hand Wrap",
+    "category": "women",
+    "price": 130.00,
+    "rating": 4.7,
+    "reviewsCount": 35,
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Features a single baroque freshwater pearl cradled at the center of an ultra-fine spun gold wire wristband. Each natural pearl carries its own one-of-a-kind organic silhouette.",
+    "material": "Cultured Freshwater Baroque Pearl & 14K Gold-Filled Wire",
+    "details": ["Pearl size: 9-11mm unique irregular shape", "Adjustable memory wire base", "Lustrous iridescent nacre", "Water-resistant coating"],
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Chronos Heavy Curb Chain Bracelet",
+    "category": "men",
+    "price": 185.00,
+    "rating": 4.9,
+    "reviewsCount": 92,
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1611591475155-426475489c36?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A classic diamond-cut Cuban curb chain engineered with flat bevelled facets that catch the light from every perspective. Secured with our signature Classified push-lock box clasp.",
+    "material": "Solid 316L Surgical Stainless Steel with brushed gunmetal tone",
+    "details": ["Link width: 9mm", "Length options: 19cm or 21cm", "Custom engraved safety lock", "Tarnish & sweat resistant"],
+    "featured": true
+  },
+  {
+    "id": 10,
+    "name": "Equinox Geometric Open Band",
+    "category": "unisex",
+    "price": 75.00,
+    "rating": 4.6,
+    "reviewsCount": 29,
+    "image": "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Architectural open-gap ring with clean squared profiles and a minimalist negative space center. Designed to be worn singly or stacked seamlessly alongside companion bands.",
+    "material": "925 Sterling Silver with Satin Matte Finish",
+    "details": ["Band thickness: 3mm square cross-section", "Sizes: US 6, 7, 8, 9, 10", "Designed for index or thumb wear", "Made from 100% recycled precious metals"],
+    "featured": false
+  },
+  {
+    "id": 11,
+    "name": "Starlight Celestial Knuckle Band",
+    "category": "women",
+    "price": 95.00,
+    "rating": 4.8,
+    "reviewsCount": 54,
+    "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Hand-engraved celestial starbursts inset with tiny moissanite stones along an ultra-fine 18k gold band. Subtle sparkle that catches ambient candlelight and natural sunlight.",
+    "material": "18K Gold Plated Sterling Silver with VVS Moissanite accents",
+    "details": ["Width: 2.2mm", "5 starburst star settings", "Comfort rounded edges", "Stackable profile"],
+    "featured": false
+  },
+  {
+    "id": 12,
+    "name": "Apex Raw Forged Ingot Cuff",
+    "category": "men",
+    "price": 150.00,
+    "rating": 4.8,
+    "reviewsCount": 38,
+    "image": "https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1611591475155-426475489c36?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Solid hand-hammered pewter-tone brass cuff with raw ingot terminal ends. Bears the subtle marks of the metalsmith's hammer, celebrating honest industrial craftsmanship.",
+    "material": "Antiqued Pewter & Solid Heavyweight Brass",
+    "details": ["Weight: 52g", "Width: 8mm", "Flexible fit for standard to large wrists", "Hand-stamped serial hallmark"],
+    "featured": false
+  },
+  {
+    "id": 13,
+    "name": "Monolith Dual-Finish Segment Band",
+    "category": "unisex",
+    "price": 115.00,
+    "rating": 4.9,
+    "reviewsCount": 67,
+    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "One half mirror-polished rhodium, one half matte brushed charcoal obsidian. Represents balance and the blurring of traditional design boundaries.",
+    "material": "925 Sterling Silver with Dual Rhodium/Ruthenium Finish",
+    "details": ["Width: 6mm", "Comfort-fit curve inner shank", "Hallmarked Classified atelier seal", "Anti-fingerprint nano-seal"],
+    "featured": true
+  },
+  {
+    "id": 14,
+    "name": "Nova Delicate Byzantine Hand Drape",
+    "category": "unisex",
+    "price": 160.00,
+    "rating": 4.7,
+    "reviewsCount": 24,
+    "image": "https://images.unsplash.com/photo-1611591475155-426475489c36?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1611591475155-426475489c36?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A fluid micro-byzantine chain weaving from a minimalist wrist cuff down to an index finger wrap. Moves organically like liquid metal across skin.",
+    "material": "Micro-woven 925 Sterling Silver Links",
+    "details": ["Weight: 14g", "Wrist size: 15-20cm adjustable", "Smooth frictionless drape", "Hand-assembled links"],
+    "featured": false
+  }
+]

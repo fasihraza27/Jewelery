@@ -1,0 +1,225 @@
+/* Home.css — styles specific to the Home page */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 640px) {
+  .home {
+    gap: 7rem;
+  }
+}
+
+/* ---------- Trust pillars (overlaps the hero) ---------- */
+.home__trust-wrap {
+  position: relative;
+  z-index: 30;
+  margin-top: -2.5rem;
+}
+
+@media (min-width: 640px) {
+  .home__trust-wrap {
+    margin-top: -3.5rem;
+  }
+}
+
+.home__trust {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.home__trust-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home__trust-item + .home__trust-item {
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.home__trust-title {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.home__trust-text {
+  margin: 0.125rem 0 0;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--text-secondary);
+}
+
+@media (min-width: 640px) {
+  .home__trust {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .home__trust {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .home__trust-item + .home__trust-item {
+    padding-top: 0;
+    padding-left: 2rem;
+    border-top: 0;
+    border-left: 1px solid var(--border-subtle);
+  }
+}
+
+/* ---------- Shop by collection ---------- */
+.home__section-head {
+  max-width: 42rem;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.home__section-head .section-title {
+  margin-bottom: 0.75rem;
+}
+
+.home__collections {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .home__section-head {
+    margin-bottom: 4rem;
+  }
+
+  .home__collections {
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .home__collections {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ---------- Best sellers ---------- */
+.home__best-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.home__best-title {
+  margin-bottom: 0;
+}
+
+.home__explore-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  transition: color 0.2s;
+}
+
+.home__explore-link:hover {
+  color: var(--accent-gold);
+}
+
+@media (min-width: 640px) {
+  .home__best-head {
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 3.5rem;
+  }
+
+  .home__explore-link {
+    margin-top: 0;
+  }
+}
+
+/* ---------- Philosophy ---------- */
+.home__philosophy {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.home__philosophy-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.home__quote {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.875rem;
+  font-style: italic;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+}
+
+.home__quote-rule {
+  width: 4rem;
+  height: 2px;
+  background-color: var(--accent-gold);
+}
+
+.home__philosophy-image {
+  aspect-ratio: 4 / 3;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 640px) {
+  .home__philosophy {
+    padding: 3rem;
+  }
+
+  .home__quote {
+    font-size: 2.25rem;
+  }
+
+  .home__philosophy-image {
+    aspect-ratio: 16 / 10;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home__philosophy {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    padding: 4rem;
+  }
+
+  .home__quote {
+    font-size: 3rem;
+  }
+}

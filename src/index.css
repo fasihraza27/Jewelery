@@ -1,0 +1,387 @@
+/* =========================================================
+   index.css — global styles shared by the whole site
+   1. Design tokens (light + dark theme)
+   2. Base / reset (on top of Bootstrap)
+   3. Shared building blocks (container, buttons, forms, etc.)
+   4. Animations & scrollbar
+   ========================================================= */
+
+/* ---------- 1. Design tokens ---------- */
+:root {
+  --font-display: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Light Theme (Warm Alabaster & Royal Gold) */
+  --bg-primary: #faf8f5;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #f3efe8;
+  --border-subtle: rgba(36, 31, 26, 0.08);
+  --border-medium: rgba(36, 31, 26, 0.16);
+  --border-gold: rgba(198, 161, 91, 0.35);
+  --text-primary: #121110;
+  --text-secondary: #58534c;
+  --text-muted: #8e877c;
+  --accent-gold: #c6a15b;
+  --accent-gold-hover: #b08c45;
+  --accent-gold-soft: rgba(198, 161, 91, 0.12);
+  --accent-gold-gradient: linear-gradient(135deg, #dfbf7d 0%, #c6a15b 50%, #a8823e 100%);
+  --btn-primary-bg: #141312;
+  --btn-primary-text: #faf8f5;
+  --btn-primary-hover: #262422;
+  --announcement-bg: #141312;
+  --announcement-text: #e8dfd1;
+  --success: #059669;
+
+  /* Shared motion */
+  --ease-luxury: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Dark Theme (Nocturne Obsidian & Gilded Noir) */
+[data-theme='dark'] {
+  --bg-primary: #09090b;
+  --bg-surface: #121215;
+  --bg-surface-elevated: #18181d;
+  --border-subtle: rgba(226, 194, 117, 0.12);
+  --border-medium: rgba(226, 194, 117, 0.24);
+  --border-gold: rgba(226, 194, 117, 0.45);
+  --text-primary: #f7f5f0;
+  --text-secondary: #aaa498;
+  --text-muted: #757067;
+  --accent-gold: #e2c275;
+  --accent-gold-hover: #f2d897;
+  --accent-gold-soft: rgba(226, 194, 117, 0.14);
+  --accent-gold-gradient: linear-gradient(135deg, #f5dc9c 0%, #e2c275 50%, #b89647 100%);
+  --btn-primary-bg: #f7f5f0;
+  --btn-primary-text: #09090b;
+  --btn-primary-hover: #e2dfd6;
+  --announcement-bg: #050506;
+  --announcement-text: #d6cca8;
+  --success: #34d399;
+}
+
+/* ---------- 2. Base / reset ---------- */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: clip; /* clip (not hidden) so position: sticky keeps working */
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition:
+    background-color 0.3s var(--ease-luxury),
+    color 0.3s var(--ease-luxury);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  letter-spacing: 0.08em;
+}
+
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  letter-spacing: 0.04em;
+}
+
+/* Utility fonts used inside JSX */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Single-line text with an ellipsis */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  overflow: hidden;
+}
+
+/* ---------- 3. Shared building blocks ---------- */
+
+/* Centered page width with responsive side padding */
+.page-container {
+  width: 100%;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .page-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Small gold label above a heading */
+.section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+}
+
+/* Big display heading used at the top of each section */
+.section-title {
+  margin: 0.5rem 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.875rem;
+  color: var(--text-primary);
+}
+
+@media (min-width: 640px) {
+  .section-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-title {
+    font-size: 3rem;
+  }
+}
+
+/* Thin gold divider line */
+.gold-rule {
+  width: 3rem;
+  height: 1px;
+  margin-bottom: 1rem;
+  background-color: var(--accent-gold);
+}
+
+.gold-rule--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Muted paragraph under a heading */
+.section-lead {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.625;
+  color: var(--text-secondary);
+}
+
+@media (min-width: 640px) {
+  .section-lead {
+    font-size: 1rem;
+  }
+}
+
+/* Round gold icon holder */
+.icon-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--accent-gold-soft);
+  border: 1px solid rgba(198, 161, 91, 0.2);
+  color: var(--accent-gold);
+}
+
+.icon-badge--sm {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.icon-badge--lg {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-color: rgba(198, 161, 91, 0.3);
+}
+
+/* Image with a dark gradient at the bottom (used for captions) */
+.image-frame {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+}
+
+.image-frame__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-frame__shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent 60%);
+}
+
+.image-frame__caption {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Primary luxury button */
+.btn-luxury {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 0.85rem 2rem;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--btn-primary-text);
+  background-color: var(--btn-primary-bg);
+  border: 1px solid var(--btn-primary-bg);
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.3s var(--ease-luxury);
+}
+
+.btn-luxury:hover {
+  color: var(--btn-primary-text);
+  background-color: var(--btn-primary-hover);
+  border-color: var(--accent-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px -6px rgba(198, 161, 91, 0.3);
+}
+
+.btn-luxury:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-luxury--block {
+  width: 100%;
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
+/* Luxury form fields */
+.form-luxury {
+  width: 100%;
+  padding: 0.85rem 1.15rem;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: var(--text-primary);
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 0;
+  transition: all 0.2s ease;
+}
+
+.form-luxury:focus {
+  outline: none;
+  border-color: var(--accent-gold);
+  box-shadow:
+    0 0 0 1px var(--accent-gold),
+    0 0 15px var(--accent-gold-soft);
+}
+
+.form-luxury::placeholder {
+  color: var(--text-muted);
+  font-weight: 300;
+}
+
+/* ---------- 4. Animations & scrollbar ---------- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes spinSlow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.35s ease-out forwards;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-gold);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-gold-hover);
+}

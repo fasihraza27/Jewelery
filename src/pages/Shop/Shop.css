@@ -1,0 +1,109 @@
+/* Shop.css — styles specific to the Shop page */
+
+.shop {
+  padding: 3rem 0;
+}
+
+@media (min-width: 640px) {
+  .shop {
+    padding: 5rem 0;
+  }
+}
+
+/* ---------- Header ---------- */
+.shop__header {
+  max-width: 48rem;
+  margin: 0 auto 4rem;
+  text-align: center;
+}
+
+.shop__title {
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+}
+
+.shop__lead {
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .shop__title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .shop__title {
+    font-size: 3.75rem;
+  }
+}
+
+/* ---------- Count bar ---------- */
+.shop__count-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.shop__count-label {
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+}
+
+/* ---------- Service assurance ---------- */
+.shop__assurance {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 6rem;
+  padding-top: 3rem;
+  text-align: center;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.shop__assurance-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.shop__assurance-item + .shop__assurance-item {
+  border-top: 1px solid var(--border-subtle);
+}
+
+.shop__assurance-title {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.shop__assurance-text {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--text-secondary);
+}
+
+@media (min-width: 640px) {
+  .shop__assurance {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .shop__assurance-item + .shop__assurance-item {
+    border-top: 0;
+    border-left: 1px solid var(--border-subtle);
+  }
+}

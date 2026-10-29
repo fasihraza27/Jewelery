@@ -1,0 +1,89 @@
+/* Newsletter.css — email signup band at the bottom of the Home page */
+
+.newsletter {
+  padding: 5rem 0;
+  background-color: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+  transition: background-color 0.3s;
+}
+
+@media (min-width: 640px) {
+  .newsletter {
+    padding: 7rem 0;
+  }
+}
+
+.newsletter__inner {
+  width: 100%;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .newsletter__inner {
+    padding: 0 1.5rem;
+  }
+}
+
+.newsletter__eyebrow {
+  margin-bottom: 0.5rem;
+}
+
+.newsletter__title {
+  margin: 0.5rem 0 1rem;
+}
+
+.newsletter__lead {
+  max-width: 36rem;
+  margin: 0 auto 2rem;
+}
+
+.newsletter__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 28rem;
+  margin: 0 auto;
+}
+
+.newsletter__input {
+  flex: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 640px) {
+  .newsletter__form {
+    flex-direction: row;
+  }
+}
+
+.newsletter__success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  background-color: var(--accent-gold-soft);
+  border: 1px solid var(--accent-gold);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter__success-icon {
+  color: var(--accent-gold);
+}
+
+.newsletter__privacy {
+  margin: 1.25rem 0 0;
+  font-size: 0.6875rem;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: var(--text-muted);
+}

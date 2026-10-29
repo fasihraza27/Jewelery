@@ -1,0 +1,67 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": [
+    "react",
+    "jsx-a11y"
+  ],
+  "categories": {
+    "correctness": "error"
+  },
+  "env": {
+    "browser": true,
+    "es2022": true
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/exhaustive-deps": "warn",
+    "react/rules-of-hooks": "error",
+    "no-unused-vars": "warn",
+    "no-console": "warn",
+    "no-restricted-imports": [
+      "error",
+      {
+        "paths": [
+          {
+            "name": "react",
+            "importNames": [
+              "useContext",
+              "useReducer",
+              "useRef",
+              "useMemo",
+              "useCallback",
+              "useLayoutEffect",
+              "useId",
+              "useTransition",
+              "useDeferredValue",
+              "useImperativeHandle",
+              "useSyncExternalStore",
+              "useInsertionEffect",
+              "useDebugValue",
+              "use",
+              "useOptimistic",
+              "useActionState"
+            ],
+            "message": "Only useState and useEffect are allowed in this project."
+          },
+          {
+            "name": "react-router-dom",
+            "importNames": [
+              "useParams",
+              "useNavigate",
+              "useLocation",
+              "useSearchParams",
+              "useLoaderData",
+              "useMatch",
+              "useOutletContext"
+            ],
+            "message": "Router hooks are not allowed in this project."
+          }
+        ]
+      }
+    ]
+  },
+  "ignorePatterns": [
+    "dist",
+    "node_modules"
+  ]
+}
